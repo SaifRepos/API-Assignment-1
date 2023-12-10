@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using API_Assignment_I.Data;
 using API_Assignment_I.Models;
 using Azure;
-
+//Static changes in master about feature.
 namespace API_Assignment_I.Controllers
 {
     [Route("api/[controller]")]
