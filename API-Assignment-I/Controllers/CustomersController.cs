@@ -145,7 +145,7 @@ namespace API_Assignment_I.Controllers
         {
             return (_context.customers?.Any(e => e.Id == id)).GetValueOrDefault();
         }
-        //This is main yml
+        //This is stage yml
         //[HttpPatch("{id}")]
         //public async Task<IActionResult> UpdateEmployeePatchAsync(int id, String str)
         //{
