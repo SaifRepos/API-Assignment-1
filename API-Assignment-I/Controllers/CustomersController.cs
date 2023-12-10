@@ -23,7 +23,7 @@ namespace API_Assignment_I.Controllers
             _context = context;
         }
 
-
+/*
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customer>>> Getcustomers()
         {
@@ -33,7 +33,7 @@ namespace API_Assignment_I.Controllers
             }
             return await _context.customers.ToListAsync();
         }
-
+*/
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(int id)
